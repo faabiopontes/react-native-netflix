@@ -29,7 +29,7 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new ReactVideoPackage(),
             new VectorIconsPackage(),
-            new OrientationPackage(this),
+            new OrientationPackage(),
             new LinearGradientPackage()
       );
     }
